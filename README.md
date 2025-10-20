@@ -132,17 +132,17 @@ docker run -p 3000:80 shell-runner-frontend:local
 
 ### Backend CI/CD Pipeline
 
-![Backend GitHub Actions](docs/screenshots/backend.png)
+![Backend GitHub Actions](dcos/screenshots/backend.png)
 _Backend CI/CD workflow showing successful Maven build and Docker image push to GHCR_
 
 ### Frontend CI/CD Pipeline
 
-![Frontend GitHub Actions](docs/screenshots/frontend.png)
+![Frontend GitHub Actions](dcos/screenshots/frontend.png)
 _Frontend CI/CD workflow showing successful npm build and Docker image push to GHCR_
 
 ### GitHub Container Registry
 
-![GitHub Container Registry](docs/screenshots/github%20container%20registry.png)
+![GitHub Container Registry](dcos/screenshots/github%20container%20registry.png)
 _GitHub Container Registry showing both backend and frontend Docker images with latest tags_
 
 ## 🚀 Usage
