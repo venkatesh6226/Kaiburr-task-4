@@ -163,10 +163,10 @@ _GitHub Container Registry showing both backend and frontend Docker images with 
 
 ```bash
 # Pull latest backend image
-docker pull ghcr.io/yourusername/yourrepo:latest
+docker pull ghcr.io/venkatesh6226/kaiburr-task-2:latest
 
 # Pull latest frontend image
-docker pull ghcr.io/yourusername/yourrepo:latest
+docker pull ghcr.io/venkatesh6226/kaiburr-task-3:latest
 ```
 
 ## 🔍 Troubleshooting
@@ -198,10 +198,10 @@ docker pull ghcr.io/yourusername/yourrepo:latest
 docker images | grep ghcr.io
 
 # Test image locally
-docker run -it --rm ghcr.io/yourusername/yourrepo:latest
+docker run -it --rm ghcr.io/venkatesh6226/kaiburr-task-2:latest
 
 # Check image layers
-docker history ghcr.io/yourusername/yourrepo:latest
+docker history ghcr.io/venkatesh6226/kaiburr-task-2:latest
 ```
 
 ## 📈 Next Steps
